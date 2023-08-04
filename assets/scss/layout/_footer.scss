@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+$fontFamily:'Noto Sans TC', sans-serif;
+$Color_3: #fff;
+
+footer {  
+  padding: 60px 0px 32px 0px;
+  transition: .5s ease;
+}
+.footerNavWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: 36px;
+}
+.footerNavIcon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;  
+}
+.footerNavIcon li a .bi {
+  font-size: 48px;
+  color: $Color_3;
+}
+.footerNavMenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 48px;
+}
+.footerNavMenu li a {
+  display: block;  
+  font-size: 16px;
+  line-height: 24px; 
+  color: $Color_3;
+  font-family: $fontFamily;
+}
+
+.footerContentWrap {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 32px;
+}
+.footerContentUp, .footerContentDown {
+  color: $Color_3;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 22px;
+}
+.footerContentSizeIcon {
+  font-size: 36px !important;
+  margin-bottom: 0;  
+}
+.footerContentRight {
+  display: none;
+}
+.contentSize { 
+  font-size: 36px !important;
+  margin-bottom: 0;  
+}
+.footerPhone, .footerEmail {
+  font-size: 36px;
+  line-height: 54px;
+}
+.footerDownWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $Color_3;
+  padding-top: 32px;
+}
+.footerDownText {
+  font-size: 16px;
+  line-height: 24px;
+  color: $Color_3;
+}
+
+.footerDownMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.footerDownMenu li {
+  font-size: 14px;
+  line-height: 21px;
+  color: $Color_3;
+}

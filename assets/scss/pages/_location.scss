@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+$fontFamily:'Noto Sans TC', sans-serif;
+
+$Color_1: #650300;
+$Color_2: #aa0601;
+$Color_3: #fff;
+$Color_4: #fbf2f2;
+$Color_5: #dee2e6;
+$Color_6: #00000029;
+$Color_7: #707070;
+$Color_8: #000;
+$Color_9: #aa0511;
+$Color_10: #9F1213;
+$Color_11: #495057;
+$Color_12: #00000020;
+
+
+
+.wrap {
+  background: $Color_2;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;  
+  transition: .5s ease;
+}
+
+main {
+  background: $Color_3;  
+}
+.pTDSize {
+  padding: 96px 0px 80px;
+}
+.locationTitle {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  color: $Color_8;
+  padding-left: 16px;
+  border-left: 8px solid $Color_10;
+  margin-bottom: 33px;
+  transition: .5s ease;
+}
+.branchWrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.branchTitle {
+  font-size: 24px;
+  line-height: 36px;
+  transition: .5s ease;
+}
+.branchSelect {
+  width: 304px;
+  padding: 6px 0px 6px 12px;
+  font-size: 18px;
+  line-height: 26px;
+  color: $Color_11;
+  transition: .5s ease;
+}
+.locationDisplayWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.locationInfoCard img {
+  width: 526px;
+  height: 224px;
+  object-fit: cover;
+  transition: .5s ease;
+}
+.infoTitle {
+  font-size: 24px;
+  line-height: 36px;
+  border: 1px solid $Color_12;
+  padding: 8px 0px 8px 24px;
+}
+.infoContent {
+  padding: 16px 24px;
+  border: 1px solid $Color_12;
+}
+.infoItem {
+  display: flex;  
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.contentSizeIcon {
+  font-size: 20px !important;
+  margin-bottom: 0;  
+}
+.infoMessage {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.locationMap img {
+  width: 746px;  
+  object-fit: cover;
+  transition: .5s ease;
+}
+
+
+/* Responsive iPad start*/
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0px 36px;
+  }
+  .pTDSize {
+    padding: 80px 36px;
+  }
+  .locationDisplayWrap {
+    flex-wrap: wrap;
+  }
+  .locationInfoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  .locationInfoCard img {
+    width: 50%;
+  }
+}
+
+/* Responsive iPad End*/
+
+/* ----------------------------------------- */
+
+/* Responsive mobile start*/
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0px 20px;
+  }
+  .pTDSize {    
+    padding: 136px 14px 80px 14px;
+  }
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .menu li {
+    width: 50%;
+    background: $Color_9;
+    border: 1px solid $Color_3;
+  }
+  .menu li a {
+    text-align: center;
+    padding: 12px 0px;
+  }
+  .locationTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .branchWrap {
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .branchTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .branchSelect {
+    width: 75%;
+  }
+  .locationInfoCard {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .locationInfoCard img,
+  .locationMap img {
+    width: 100%;
+  }
+
+  footer {
+    padding: 24px 0px;
+  }
+  .footerNavIcon {
+    gap: 8px;
+  }
+  .footerNavWrap {
+    display: none;
+  }
+  .footerNavIcon li a .bi {
+    font-size: 24px;
+  }
+  .footerContentWrap {
+    margin-bottom: 24px;
+  }
+  .footerContentRight {
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 8px;
+  }
+  .footerContentRight li a .bi {
+    font-size: 24px;
+    color: $Color_3;
+  }
+  .footerContentUp, .footerContentDown {    
+    gap: 11px;
+  }
+  .contentSizeIcon, .footerContentSizeIcon { 
+    font-size: 18px !important;
+    margin-bottom: 0;  
+  }
+  .footerPhone, .footerEmail {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footerDownWrap {
+    flex-wrap: wrap;
+    padding-top: 16px;
+    gap: 8px;   
+  }
+  .footerDownMenu {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .footerDownMenu li {
+    width: 100%;
+  }
+}
+
+/* Responsive mobile End*/

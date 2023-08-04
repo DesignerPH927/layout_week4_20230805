@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,500;1,900&display=swap');
+$fontFamily:'Noto Sans TC', sans-serif;
+$fontFamily_E:'Roboto', sans-serif;
+
+$Color_1: #650300;
+$Color_2: #aa0601;
+$Color_3: #fff;
+$Color_4: #fbf2f2;
+$Color_5: #dee2e6;
+$Color_6: #00000029;
+$Color_7: #707070;
+$Color_8: #000;
+$Color_9: #aa0511;
+
+// banner start
+
+.banner {
+  background-image: url(../../../assets/images/banner/home-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+.rightWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;  
+}
+.bannerTextWrap {
+  text-align: right;
+  color: $Color_1;
+}
+.bTextUp {
+  font-size: 36px;
+  line-height: 54px;
+  transition: .5s ease;
+}
+.bTextDown {
+  font-size: 64px;
+  line-height: 96px;
+  font-weight: bold;
+  transition: .5s ease;
+}
+.bBtn {
+  padding: 6px 12px;
+  font-size: 20px;
+  line-height: 30px;
+  background: $Color_2;
+  color: $Color_3;
+  border: none;
+}
+// banner End
+
+/* ----------------------------------------- */
+
+/* main_main1 start */
+
+.main1 {
+  background: $Color_4;  
+}
+.mainText {
+  text-align: center;
+  color: $Color_1;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  padding: 80px 0px 36.6px 0px;
+}
+
+.main_Wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 80px;    
+}
+.main1_item {
+  width: 30.333%;
+  height: 226px;  
+  color: $Color_1;
+  transition: .5s ease; 
+}
+.materialIcon{
+  text-align: center; 
+}
+.material_FontSize_1{
+  font-size: 83.83px !important;
+  margin-bottom: 24.33px;
+}
+.mainItemTitle {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.main1_Text {
+  font-size: 16px;
+  line-height: 24px;   
+}
+
+/* main_main1 End */
+
+/* ----------------------------------------- */
+
+/* main_main2 start */
+
+.main2 {
+  background: $Color_3;  
+}
+.main2Text {
+  text-align: center;
+  color: $Color_1;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  padding: 80px 0px 48px 0px; 
+}
+.main2Img {
+  width: 416px;
+  height: 416px;
+  object-fit: cover;
+  object-position: center;
+}
+.main2_Text {
+  font-size: 48px;
+  line-height: 72px;
+  color: $Color_2;
+  text-align: center;
+  margin-top: 8px;
+  font-family: $fontFamily_E;
+}
+
+/* main_main2 end */
+
+/* ----------------------------------------- */
+
+/* main_main3 start */
+
+.main3 {
+  background-image: url(../../../assets/images/main/mian3/index-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main3Text {
+  font-size: 48px;
+  line-height: 72px;
+  color: $Color_3;
+  text-align: center;
+  padding: 80px 0px 48px 0px;
+}
+.main3_Wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.main3_Text {
+  font-size: 48px;
+  line-height: 72px;
+  padding: 8px 0px;
+  background: $Color_3;
+  color: $Color_2;
+  text-align: center;
+  font-family: $fontFamily_E;
+  font-style: italic;
+}
+
+/* main_main3 End */
+
+/* ----------------------------------------- */
+
+/* main_main4 start */
+
+.main4 {
+  background: $Color_3;
+}
+
+.main4CardWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 80px;  
+}
+
+.main4Card {
+  width: 35%;  
+  border: 1px solid $Color_5;
+  border-radius: 4px 4px 0 0;
+  transition: .5s ease;
+  box-shadow: 0px 2px 6px $Color_6;
+}
+.cardContentWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.cardName {
+  font-size: 16px;
+  line-height: 24px;  
+  margin-bottom: 8px;
+}
+.cardContent {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+.cardDate {
+  font-size: 14px;
+  line-height: 21px;
+  color: $Color_7;
+}
+
+/* main_main4 End */
+
+/* ----------------------------------------- */
+
+/* main_main5 start */
+
+.main5 {
+  background: $Color_4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main5Form_Wrap {
+  width: 636px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 80px;
+}
+.form_text {
+  font-size: 20px;
+  line-height: 30px; 
+  color: $Color_8;
+}
+.main5_form {
+  width: 100%;  
+}
+.form_inputBox {
+  width: 100%;
+  height: 68px;
+  margin-bottom: 16px;
+}
+.form_label {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.form_input {
+  width: 100%;
+  padding: 6px 0 6px 12px;
+}
+.form_inputBoxMessage {
+  margin-bottom: 16px;
+}
+.message {
+  width: 100%;
+  padding: 6px 0px 0px 12px;
+  resize: none;
+}
+.form_message { 
+  padding-left: 1.5rem;
+  margin-bottom: 48px;  
+}
+.form_message_input {
+  margin-left: -1.5rem;  
+  vertical-align: top;
+  width: 1rem;
+  height: 1rem;
+}
+.form_message_label {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.form_button {
+  text-align: center;  
+}
+.formBtn {
+  font-size: 16px;
+  line-height: 24px;
+  width: 416px;
+  padding: 16px 0px;
+  background: $Color_2;
+  border: none;
+  color: $Color_3;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.formBtn:hover {
+  background: $Color_1;
+}
+
+/* main_main5 End */
+
+/* ----------------------------------------- */
+
+/* Responsive iPad start*/
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0px 36px;
+  }
+  .banner {
+    background-image: url(../../../assets/images/banner/mobile/home-header-sm.png);
+  }
+  .main_Wrap, .main3_Wrap,
+  .main4CardWrap {
+    flex-wrap: wrap;
+  }
+  .main_Wrap .main1_item,
+  .main4CardWrap .main4Card {
+    width: 45%;
+  }  
+}
+/* Responsive iPad End*/
+
+/* ----------------------------------------- */
+
+/* Responsive Mobile start */
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0px 20px;
+  }
+  .banner {
+    background-position: left center;
+  }
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .menu li {
+    width: 50%;
+    background: $Color_9;
+    border: 1px solid $Color_3;
+  }
+  .menu li a {
+    text-align: center;
+    padding: 12px 0px;
+  } 
+  .bTextUp, .form_text,
+  .footerPhone, .footerEmail {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bTextDown,.mainText,
+  .main2Text, .main3Text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .main_Wrap .main1_item,
+  .main4CardWrap .main4Card {
+    width: 100%;
+  } 
+  .main5Form_Wrap {
+    width: 100%;
+  }
+  .formBtn {
+    width: 100%;
+  }
+  footer {
+    padding: 24px 0px;
+  }
+  .footerNavIcon {
+    gap: 8px;
+  }
+  .footerNavWrap {
+    display: none;
+  }
+  .footerNavIcon li a .bi {
+    font-size: 24px;
+  }
+  .footerContentWrap {
+    margin-bottom: 24px;
+  }
+  .footerContentRight {
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 8px;
+  }
+  .footerContentRight li a .bi {
+    font-size: 24px;
+    color: $Color_3;
+  }
+  .footerContentUp, .footerContentDown {    
+    gap: 11px;
+  }
+  .contentSizeIcon { 
+    font-size: 18px !important;
+    margin-bottom: 0;  
+  }
+  .footerDownWrap {
+    flex-wrap: wrap;
+    padding-top: 16px;
+    gap: 8px;   
+  }
+  .footerDownMenu {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .footerDownMenu li {
+    width: 100%;
+  }
+}
+
+/* Responsive Mobile End*/
