@@ -15,7 +15,7 @@ $Color_9: #aa0511;
 // banner start
 
 .banner {
-  background-image: url(../../../assets/images/banner/home-header.png);
+  background-image: url(/assets/images/banner/home-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -138,7 +138,7 @@ $Color_9: #aa0511;
 /* main_main3 start */
 
 .main3 {
-  background-image: url(../../../assets/images/main/mian3/index-bg.png);
+  background-image: url(/assets/images/main/main3/index-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -310,7 +310,7 @@ $Color_9: #aa0511;
     padding: 0px 36px;
   }
   .banner {
-    background-image: url(../../../assets/images/banner/mobile/home-header-sm.png);
+    background-image: url(/assets/images/banner/mobile/home-header-sm.png);    
   }
   .main_Wrap, .main3_Wrap,
   .main4CardWrap {
